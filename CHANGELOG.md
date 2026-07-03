@@ -1,3 +1,10 @@
+# 1.0.0 (2026-07-03)
+
+
+### Features
+
+* N-central REST API client with token lifecycle, rate limiting and typed resources ([7abb53e](https://github.com/wyre-technology/node-ncentral/commit/7abb53e77bdbfdc56e873dea41b4d86518a213c0))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.

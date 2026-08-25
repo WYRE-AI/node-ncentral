@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/WYRE-AI/node-ncentral/compare/v1.0.0...v1.0.1) (2026-08-25)
+
+
+### Bug Fixes
+
+* migrate to WYRE-AI org (npm scope, ghcr namespace, registry) ([#1](https://github.com/WYRE-AI/node-ncentral/issues/1)) ([3a62eb1](https://github.com/WYRE-AI/node-ncentral/commit/3a62eb1def58b88562ad89e47f548418fe61e277))
+
 # 1.0.0 (2026-07-03)
 
 

@@ -5,7 +5,7 @@ Thanks for your interest in contributing!
 ## Getting started
 
 ```bash
-git clone https://github.com/wyre-technology/node-ncentral.git
+git clone https://github.com/WYRE-AI/node-ncentral.git
 cd node-ncentral
 npm install
 ```

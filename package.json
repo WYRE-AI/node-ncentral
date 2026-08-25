@@ -1,5 +1,5 @@
 {
-  "name": "@wyre-technology/node-ncentral",
+  "name": "@wyre-ai/node-ncentral",
   "version": "1.0.0",
   "description": "Node.js/TypeScript client library for the N-able N-central REST API",
   "type": "module",
@@ -42,12 +42,12 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wyre-technology/node-ncentral.git"
+    "url": "https://github.com/WYRE-AI/node-ncentral.git"
   },
   "bugs": {
-    "url": "https://github.com/wyre-technology/node-ncentral/issues"
+    "url": "https://github.com/WYRE-AI/node-ncentral/issues"
   },
-  "homepage": "https://github.com/wyre-technology/node-ncentral#readme",
+  "homepage": "https://github.com/WYRE-AI/node-ncentral#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",

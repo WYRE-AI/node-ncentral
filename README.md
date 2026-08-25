@@ -14,18 +14,18 @@ Node.js/TypeScript client library for the [N-able N-central](https://www.n-able.
 
 ## Installation
 
-The package is published to **GitHub Packages**, not npmjs.org. Point the `@wyre-technology` scope at the GitHub registry first:
+The package is published to **GitHub Packages**, not npmjs.org. Point the `@wyre-ai` scope at the GitHub registry first:
 
 ```bash
 # .npmrc (project or user level)
-@wyre-technology:registry=https://npm.pkg.github.com
+@wyre-ai:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
 ```
 
 `NODE_AUTH_TOKEN` must be a GitHub token with `read:packages` scope (any authenticated token works for public packages).
 
 ```bash
-npm install @wyre-technology/node-ncentral
+npm install @wyre-ai/node-ncentral
 ```
 
 Requires Node.js ≥ 20.
@@ -33,7 +33,7 @@ Requires Node.js ≥ 20.
 ## Quick start
 
 ```typescript
-import { NCentralClient } from '@wyre-technology/node-ncentral';
+import { NCentralClient } from '@wyre-ai/node-ncentral';
 
 const client = new NCentralClient({
   serverUrl: 'https://ncentral.example.com', // your N-central server
@@ -195,7 +195,7 @@ import {
   ValidationError,     // 400/422 — carries .errors: { field, message }[]
   RateLimitError,      // 429 — carries .retryAfter (seconds)
   ServerError,         // 5xx
-} from '@wyre-technology/node-ncentral';
+} from '@wyre-ai/node-ncentral';
 
 try {
   await client.devices.get(1);

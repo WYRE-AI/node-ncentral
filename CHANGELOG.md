@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/WYRE-AI/node-ncentral/compare/v1.0.1...v1.0.2) (2026-08-28)
+
+
+### Bug Fixes
+
+* use reusable auto-add-to-project workflow instead of stale raw-token pattern ([#2](https://github.com/WYRE-AI/node-ncentral/issues/2)) ([8ff4bde](https://github.com/WYRE-AI/node-ncentral/commit/8ff4bde0d63a86289f4bde15780bdf7ca7a34fe2)), closes [#1](https://github.com/WYRE-AI/node-ncentral/issues/1) [#1](https://github.com/WYRE-AI/node-ncentral/issues/1)
+
 ## [1.0.1](https://github.com/WYRE-AI/node-ncentral/compare/v1.0.0...v1.0.1) (2026-08-25)
 
 
